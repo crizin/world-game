@@ -1,0 +1,2073 @@
+import { readable } from 'svelte/store';
+
+export const data = readable([{
+	'code': 'AD',
+	'name': '안도라',
+	'name_eng': 'Andorra',
+	'capitals': ['Andorra la Vella'],
+	'capitals_eng': ['안도라라벨랴'],
+	'population': 79535,
+	'area': 468,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%95%88%EB%8F%84%EB%9D%BC',
+	'url_eng': 'https://en.wikipedia.org/wiki/Andorra'
+}, {
+	'code': 'AE',
+	'name': '아랍에미리트',
+	'name_eng': 'United Arab Emirates',
+	'capitals': ['Abu Dhabi'],
+	'capitals_eng': ['아부다비'],
+	'population': 9282410,
+	'area': 83600,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%95%84%EB%9E%8D%EC%97%90%EB%AF%B8%EB%A6%AC%ED%8A%B8',
+	'url_eng': 'https://en.wikipedia.org/wiki/United_Arab_Emirates'
+}, {
+	'code': 'AF',
+	'name': '아프가니스탄',
+	'name_eng': 'Afghanistan',
+	'capitals': ['Kabul'],
+	'capitals_eng': ['카불'],
+	'population': 40218234,
+	'area': 652867,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%95%84%ED%94%84%EA%B0%80%EB%8B%88%EC%8A%A4%ED%83%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Afghanistan'
+}, {
+	'code': 'AG',
+	'name': '앤티가 바부다',
+	'name_eng': 'Antigua and Barbuda',
+	'capitals': ['St. John\'s (de facto)'],
+	'capitals_eng': ['세인트존스'],
+	'population': 99337,
+	'area': 440,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%95%A4%ED%8B%B0%EA%B0%80_%EB%B0%94%EB%B6%80%EB%8B%A4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Antigua_and_Barbuda'
+}, {
+	'code': 'AL',
+	'name': '알바니아',
+	'name_eng': 'Albania',
+	'capitals': ['Tirana'],
+	'capitals_eng': ['티라나'],
+	'population': 2845955,
+	'area': 28748,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%95%8C%EB%B0%94%EB%8B%88%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Albania'
+}, {
+	'code': 'AM',
+	'name': '아르메니아',
+	'name_eng': 'Armenia',
+	'capitals': ['Yerevan'],
+	'capitals_eng': ['예레반'],
+	'population': 2963900,
+	'area': 29743,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%95%84%EB%A5%B4%EB%A9%94%EB%8B%88%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Armenia'
+}, {
+	'code': 'AO',
+	'name': '앙골라',
+	'name_eng': 'Angola',
+	'capitals': ['Luanda'],
+	'capitals_eng': ['루안다'],
+	'population': 33086278,
+	'area': 1246700,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%95%99%EA%B3%A8%EB%9D%BC',
+	'url_eng': 'https://en.wikipedia.org/wiki/Angola'
+}, {
+	'code': 'AR',
+	'name': '아르헨티나',
+	'name_eng': 'Argentina',
+	'capitals': ['Buenos Aires'],
+	'capitals_eng': ['부에노스아이레스'],
+	'population': 47327407,
+	'area': 2780400,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%95%84%EB%A5%B4%ED%97%A8%ED%8B%B0%EB%82%98',
+	'url_eng': 'https://en.wikipedia.org/wiki/Argentina'
+}, {
+	'code': 'AT',
+	'name': '오스트리아',
+	'name_eng': 'Austria',
+	'capitals': ['Vienna'],
+	'capitals_eng': ['빈'],
+	'population': 9027999,
+	'area': 83879,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%98%A4%EC%8A%A4%ED%8A%B8%EB%A6%AC%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Austria'
+}, {
+	'code': 'AU',
+	'name': '호주',
+	'name_eng': 'Australia',
+	'capitals': ['Canberra'],
+	'capitals_eng': ['캔버라'],
+	'population': 26008700,
+	'area': 7692024,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%98%A4%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%BC%EB%A6%AC%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Australia'
+}, {
+	'code': 'AZ',
+	'name': '아제르바이잔',
+	'name_eng': 'Azerbaijan',
+	'capitals': ['Baku'],
+	'capitals_eng': ['바쿠'],
+	'population': 10164464,
+	'area': 86600,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%95%84%EC%A0%9C%EB%A5%B4%EB%B0%94%EC%9D%B4%EC%9E%94',
+	'url_eng': 'https://en.wikipedia.org/wiki/Azerbaijan'
+}, {
+	'code': 'BA',
+	'name': '보스니아 헤르체고비나',
+	'name_eng': 'Bosnia and Herzegovina',
+	'capitals': ['Sarajevo'],
+	'capitals_eng': ['사라예보'],
+	'population': 3475000,
+	'area': 51129,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B3%B4%EC%8A%A4%EB%8B%88%EC%95%84_%ED%97%A4%EB%A5%B4%EC%B2%B4%EA%B3%A0%EB%B9%84%EB%82%98',
+	'url_eng': 'https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina'
+}, {
+	'code': 'BB',
+	'name': '바베이도스',
+	'name_eng': 'Barbados',
+	'capitals': ['Bridgetown'],
+	'capitals_eng': ['브리지타운'],
+	'population': 287025,
+	'area': 439,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B0%94%EB%B2%A0%EC%9D%B4%EB%8F%84%EC%8A%A4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Barbados'
+}, {
+	'code': 'BD',
+	'name': '방글라데시',
+	'name_eng': 'Bangladesh',
+	'capitals': ['Dhaka'],
+	'capitals_eng': ['다카'],
+	'population': 161376708,
+	'area': 148460,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B0%A9%EA%B8%80%EB%9D%BC%EB%8D%B0%EC%8B%9C',
+	'url_eng': 'https://en.wikipedia.org/wiki/Bangladesh'
+}, {
+	'code': 'BE',
+	'name': '벨기에',
+	'name_eng': 'Belgium',
+	'capitals': ['Brussels'],
+	'capitals_eng': ['브뤼셀'],
+	'population': 11492641,
+	'area': 30689,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B2%A8%EA%B8%B0%EC%97%90',
+	'url_eng': 'https://en.wikipedia.org/wiki/Belgium'
+}, {
+	'code': 'BF',
+	'name': '부르키나파소',
+	'name_eng': 'Burkina Faso',
+	'capitals': ['Ouagadougou'],
+	'capitals_eng': ['와가두구'],
+	'population': 21510181,
+	'area': 274200,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B6%80%EB%A5%B4%ED%82%A4%EB%82%98%ED%8C%8C%EC%86%8C',
+	'url_eng': 'https://en.wikipedia.org/wiki/Burkina_Faso'
+}, {
+	'code': 'BG',
+	'name': '불가리아',
+	'name_eng': 'Bulgaria',
+	'capitals': ['Sofia'],
+	'capitals_eng': ['소피아'],
+	'population': 6863422,
+	'area': 110993,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B6%88%EA%B0%80%EB%A6%AC%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Bulgaria'
+}, {
+	'code': 'BH',
+	'name': '바레인',
+	'name_eng': 'Bahrain',
+	'capitals': ['Manama'],
+	'capitals_eng': ['마나마'],
+	'population': 1569446,
+	'area': 785,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B0%94%EB%A0%88%EC%9D%B8',
+	'url_eng': 'https://en.wikipedia.org/wiki/Bahrain'
+}, {
+	'code': 'BI',
+	'name': '부룬디',
+	'name_eng': 'Burundi',
+	'capitals': ['Gitega (political)', 'Bujumbura (economic)'],
+	'capitals_eng': ['기테가 (정치적)', '부줌부라 (경제적)'],
+	'population': 11865821,
+	'area': 27834,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B6%80%EB%A3%AC%EB%94%94',
+	'url_eng': 'https://en.wikipedia.org/wiki/Burundi'
+}, {
+	'code': 'BJ',
+	'name': '베냉',
+	'name_eng': 'Benin',
+	'capitals': ['Porto-Novo'],
+	'capitals_eng': ['포르토노보'],
+	'population': 11733059,
+	'area': 114763,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B2%A0%EB%83%89',
+	'url_eng': 'https://en.wikipedia.org/wiki/Benin'
+}, {
+	'code': 'BN',
+	'name': '브루나이',
+	'name_eng': 'Brunei',
+	'capitals': ['Bandar Seri Begawan'],
+	'capitals_eng': ['반다르스리브가완'],
+	'population': 460345,
+	'area': 5765,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%A3%A8%EB%82%98%EC%9D%B4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Brunei_Darussalam'
+}, {
+	'code': 'BO',
+	'name': '볼리비아',
+	'name_eng': 'Plurinational State of Bolivia',
+	'capitals': ['La Paz (executive and legislative)', 'Sucre (constitutional and judicial)'],
+	'capitals_eng': ['라파스 (행정)', '수크레 (사법)'],
+	'population': 11428245,
+	'area': 1098581,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B3%BC%EB%A6%AC%EB%B9%84%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Bolivia'
+}, {
+	'code': 'BR',
+	'name': '브라질',
+	'name_eng': 'Brazil',
+	'capitals': ['Brasília'],
+	'capitals_eng': ['브라질리아'],
+	'population': 214047375,
+	'area': 8515767,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%9D%BC%EC%A7%88',
+	'url_eng': 'https://en.wikipedia.org/wiki/Brazil'
+}, {
+	'code': 'BS',
+	'name': '바하마',
+	'name_eng': 'The Bahamas',
+	'capitals': ['Nassau'],
+	'capitals_eng': ['나소'],
+	'population': 400516,
+	'area': 13878,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B0%94%ED%95%98%EB%A7%88',
+	'url_eng': 'https://en.wikipedia.org/wiki/Bahamas'
+}, {
+	'code': 'BT',
+	'name': '부탄',
+	'name_eng': 'Bhutan',
+	'capitals': ['Thimphu'],
+	'capitals_eng': ['팀부'],
+	'population': 754388,
+	'area': 38394,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B6%80%ED%83%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Bhutan'
+}, {
+	'code': 'BW',
+	'name': '보츠와나',
+	'name_eng': 'Botswana',
+	'capitals': ['Gaborone'],
+	'capitals_eng': ['가보로네'],
+	'population': 2254068,
+	'area': 581730,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B3%B4%EC%B8%A0%EC%99%80%EB%82%98',
+	'url_eng': 'https://en.wikipedia.org/wiki/Botswana'
+}, {
+	'code': 'BY',
+	'name': '벨라루스',
+	'name_eng': 'Belarus',
+	'capitals': ['Minsk'],
+	'capitals_eng': ['민스크'],
+	'population': 9255524,
+	'area': 207595,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B2%A8%EB%9D%BC%EB%A3%A8%EC%8A%A4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Belarus'
+}, {
+	'code': 'BZ',
+	'name': '벨리즈',
+	'name_eng': 'Belize',
+	'capitals': ['Belmopan'],
+	'capitals_eng': ['벨모판'],
+	'population': 419199,
+	'area': 22966,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B2%A8%EB%A6%AC%EC%A6%88',
+	'url_eng': 'https://en.wikipedia.org/wiki/Belize'
+}, {
+	'code': 'CA',
+	'name': '캐나다',
+	'name_eng': 'Canada',
+	'capitals': ['Ottawa'],
+	'capitals_eng': ['오타와'],
+	'population': 38526760,
+	'area': 9984670,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%BA%90%EB%82%98%EB%8B%A4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Canada'
+}, {
+	'code': 'CD',
+	'name': '콩고 민주 공화국',
+	'name_eng': 'Democratic Republic of the Congo',
+	'capitals': ['Kinshasa'],
+	'capitals_eng': ['킨샤사'],
+	'population': 108407721,
+	'area': 2345409,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%BD%A9%EA%B3%A0_%EB%AF%BC%EC%A3%BC_%EA%B3%B5%ED%99%94%EA%B5%AD',
+	'url_eng': 'https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo'
+}, {
+	'code': 'CF',
+	'name': '중앙아프리카 공화국',
+	'name_eng': 'Central African Republic',
+	'capitals': ['Bangui'],
+	'capitals_eng': ['방기'],
+	'population': 4829764,
+	'area': 622984,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%A4%91%EC%95%99%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4_%EA%B3%B5%ED%99%94%EA%B5%AD',
+	'url_eng': 'https://en.wikipedia.org/wiki/Central_African_Republic'
+}, {
+	'code': 'CG',
+	'name': '콩고 공화국',
+	'name_eng': 'Republic of the Congo',
+	'capitals': ['Brazzaville'],
+	'capitals_eng': ['브라자빌'],
+	'population': 5657000,
+	'area': 342000,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%BD%A9%EA%B3%A0_%EA%B3%B5%ED%99%94%EA%B5%AD',
+	'url_eng': 'https://en.wikipedia.org/wiki/Republic_of_the_Congo'
+}, {
+	'code': 'CH',
+	'name': '스위스',
+	'name_eng': 'Switzerland',
+	'capitals': ['Bern (de facto)'],
+	'capitals_eng': ['베른 (사실상)'],
+	'population': 8570146,
+	'area': 41285,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%8A%A4%EC%9C%84%EC%8A%A4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Switzerland'
+}, {
+	'code': 'CI',
+	'name': '코트디부아르',
+	'name_eng': 'Ivory Coast',
+	'capitals': ['Yamoussoukro (political)', 'Abidjan (economic)'],
+	'capitals_eng': ['야무수크로 (정치적)', '아비장 (경제적)'],
+	'population': 26378274,
+	'area': 322463,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%BD%94%ED%8A%B8%EB%94%94%EB%B6%80%EC%95%84%EB%A5%B4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Ivory_Coast'
+}, {
+	'code': 'CK',
+	'name': '쿡 제도',
+	'name_eng': 'Cook Islands',
+	'capitals': ['Avarua'],
+	'capitals_eng': ['아바루아'],
+	'population': 17459,
+	'area': 237,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%BF%A1_%EC%A0%9C%EB%8F%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Cook_Islands'
+}, {
+	'code': 'CL',
+	'name': '칠레',
+	'name_eng': 'Chile',
+	'capitals': ['Santiago'],
+	'capitals_eng': ['산티아고'],
+	'population': 17574003,
+	'area': 756096,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%B9%A0%EB%A0%88',
+	'url_eng': 'https://en.wikipedia.org/wiki/Chile'
+}, {
+	'code': 'CM',
+	'name': '카메룬',
+	'name_eng': 'Cameroon',
+	'capitals': ['Yaoundé'],
+	'capitals_eng': ['야운데'],
+	'population': 26545864,
+	'area': 475442,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%B9%B4%EB%A9%94%EB%A3%AC',
+	'url_eng': 'https://en.wikipedia.org/wiki/Cameroon'
+}, {
+	'code': 'CN',
+	'name': '중국',
+	'name_eng': 'China',
+	'capitals': ['Beijing'],
+	'capitals_eng': ['베이징'],
+	'population': 1412600000,
+	'area': 9596961,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%A4%91%ED%99%94%EC%9D%B8%EB%AF%BC%EA%B3%B5%ED%99%94%EA%B5%AD',
+	'url_eng': 'https://en.wikipedia.org/wiki/China'
+}, {
+	'code': 'CO',
+	'name': '콜롬비아',
+	'name_eng': 'Colombia',
+	'capitals': ['Bogotá'],
+	'capitals_eng': ['보고타'],
+	'population': 50372424,
+	'area': 1141748,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%BD%9C%EB%A1%AC%EB%B9%84%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Colombia'
+}, {
+	'code': 'CR',
+	'name': '코스타리카',
+	'name_eng': 'Costa Rica',
+	'capitals': ['San José'],
+	'capitals_eng': ['산호세'],
+	'population': 5094118,
+	'area': 51100,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%BD%94%EC%8A%A4%ED%83%80%EB%A6%AC%EC%B9%B4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Costa_Rica'
+}, {
+	'code': 'CU',
+	'name': '쿠바',
+	'name_eng': 'Cuba',
+	'capitals': ['Havana'],
+	'capitals_eng': ['아바나'],
+	'population': 11181595,
+	'area': 109884,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%BF%A0%EB%B0%94',
+	'url_eng': 'https://en.wikipedia.org/wiki/Cuba'
+}, {
+	'code': 'CV',
+	'name': '카보베르데',
+	'name_eng': 'Cape Verde',
+	'capitals': ['Praia'],
+	'capitals_eng': ['프라이아'],
+	'population': 483628,
+	'area': 4033,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%B9%B4%EB%B3%B4%EB%B2%A0%EB%A5%B4%EB%8D%B0',
+	'url_eng': 'https://en.wikipedia.org/wiki/Cape_Verde'
+}, {
+	'code': 'CY',
+	'name': '키프로스',
+	'name_eng': 'Cyprus',
+	'capitals': ['Nicosia'],
+	'capitals_eng': ['니코시아'],
+	'population': 1189265,
+	'area': 9251,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%82%A4%ED%94%84%EB%A1%9C%EC%8A%A4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Cyprus'
+}, {
+	'code': 'CZ',
+	'name': '체코',
+	'name_eng': 'Czech Republic',
+	'capitals': ['Prague'],
+	'capitals_eng': ['프라하'],
+	'population': 10516707,
+	'area': 78871,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%B2%B4%EC%BD%94',
+	'url_eng': 'https://en.wikipedia.org/wiki/Czech_Republic'
+}, {
+	'code': 'DE',
+	'name': '독일',
+	'name_eng': 'Germany',
+	'capitals': ['Berlin'],
+	'capitals_eng': ['베를린'],
+	'population': 83190556,
+	'area': 357022,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%8F%85%EC%9D%BC',
+	'url_eng': 'https://en.wikipedia.org/wiki/Germany'
+}, {
+	'code': 'DJ',
+	'name': '지부티',
+	'name_eng': 'Djibouti',
+	'capitals': ['Djibouti'],
+	'capitals_eng': ['지부티'],
+	'population': 921804,
+	'area': 23200,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%A7%80%EB%B6%80%ED%8B%B0',
+	'url_eng': 'https://en.wikipedia.org/wiki/Djibouti'
+}, {
+	'code': 'DK',
+	'name': '덴마크',
+	'name_eng': 'Denmark',
+	'capitals': ['Copenhagen'],
+	'capitals_eng': ['코펜하겐'],
+	'population': 5873420,
+	'area': 42933,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%8D%B4%EB%A7%88%ED%81%AC',
+	'url_eng': 'https://en.wikipedia.org/wiki/Denmark'
+}, {
+	'code': 'DM',
+	'name': '도미니카 연방',
+	'name_eng': 'Dominica',
+	'capitals': ['Roseau'],
+	'capitals_eng': ['로조'],
+	'population': 71625,
+	'area': 750,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%8F%84%EB%AF%B8%EB%8B%88%EC%B9%B4_%EC%97%B0%EB%B0%A9',
+	'url_eng': 'https://en.wikipedia.org/wiki/Dominica'
+}, {
+	'code': 'DO',
+	'name': '도미니카 공화국',
+	'name_eng': 'Dominican Republic',
+	'capitals': ['Santo Domingo'],
+	'capitals_eng': ['산토도밍고'],
+	'population': 10694700,
+	'area': 48671,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%8F%84%EB%AF%B8%EB%8B%88%EC%B9%B4_%EA%B3%B5%ED%99%94%EA%B5%AD',
+	'url_eng': 'https://en.wikipedia.org/wiki/Dominican_Republic'
+}, {
+	'code': 'DZ',
+	'name': '알제리',
+	'name_eng': 'Algeria',
+	'capitals': ['Algiers'],
+	'capitals_eng': ['알제'],
+	'population': 44700000,
+	'area': 2381741,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%95%8C%EC%A0%9C%EB%A6%AC',
+	'url_eng': 'https://en.wikipedia.org/wiki/Algeria'
+}, {
+	'code': 'EC',
+	'name': '에콰도르',
+	'name_eng': 'Ecuador',
+	'capitals': ['Quito'],
+	'capitals_eng': ['키토'],
+	'population': 17715822,
+	'area': 256370,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%97%90%EC%BD%B0%EB%8F%84%EB%A5%B4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Ecuador'
+}, {
+	'code': 'EE',
+	'name': '에스토니아',
+	'name_eng': 'Estonia',
+	'capitals': ['Tallinn'],
+	'capitals_eng': ['탈린'],
+	'population': 1331796,
+	'area': 45339,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%97%90%EC%8A%A4%ED%86%A0%EB%8B%88%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Estonia'
+}, {
+	'code': 'EG',
+	'name': '이집트',
+	'name_eng': 'Egypt',
+	'capitals': ['Cairo'],
+	'capitals_eng': ['카이로'],
+	'population': 102674145,
+	'area': 1010408,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A7%91%ED%8A%B8',
+	'url_eng': 'https://en.wikipedia.org/wiki/Egypt'
+}, {
+	'code': 'ER',
+	'name': '에리트레아',
+	'name_eng': 'Eritrea',
+	'capitals': ['Asmara'],
+	'capitals_eng': ['아스마라'],
+	'population': 3600000,
+	'area': 117600,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%97%90%EB%A6%AC%ED%8A%B8%EB%A0%88%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Eritrea'
+}, {
+	'code': 'ES',
+	'name': '스페인',
+	'name_eng': 'Spain',
+	'capitals': ['Madrid'],
+	'capitals_eng': ['마드리드'],
+	'population': 47450795,
+	'area': 505990,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8E%98%EC%9D%B8',
+	'url_eng': 'https://en.wikipedia.org/wiki/Spain'
+}, {
+	'code': 'ET',
+	'name': '에티오피아',
+	'name_eng': 'Ethiopia',
+	'capitals': ['Addis Ababa'],
+	'capitals_eng': ['아디스아바바'],
+	'population': 117876227,
+	'area': 1104300,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%97%90%ED%8B%B0%EC%98%A4%ED%94%BC%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Ethiopia'
+}, {
+	'code': 'FI',
+	'name': '핀란드',
+	'name_eng': 'Finland',
+	'capitals': ['Helsinki'],
+	'capitals_eng': ['헬싱키'],
+	'population': 5536146,
+	'area': 338455,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%95%80%EB%9E%80%EB%93%9C',
+	'url_eng': 'https://en.wikipedia.org/wiki/Finland'
+}, {
+	'code': 'FJ',
+	'name': '피지',
+	'name_eng': 'Fiji',
+	'capitals': ['Suva'],
+	'capitals_eng': ['수바'],
+	'population': 926276,
+	'area': 18274,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%94%BC%EC%A7%80',
+	'url_eng': 'https://en.wikipedia.org/wiki/Fiji'
+}, {
+	'code': 'FM',
+	'name': '미크로네시아 연방',
+	'name_eng': 'Federated States of Micronesia',
+	'capitals': ['Palikir'],
+	'capitals_eng': ['팔리키르'],
+	'population': 104468,
+	'area': 702,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%AF%B8%ED%81%AC%EB%A1%9C%EB%84%A4%EC%8B%9C%EC%95%84_%EC%97%B0%EB%B0%A9',
+	'url_eng': 'https://en.wikipedia.org/wiki/Federated_States_of_Micronesia'
+}, {
+	'code': 'FR',
+	'name': '프랑스',
+	'name_eng': 'France',
+	'capitals': ['Paris'],
+	'capitals_eng': ['파리'],
+	'population': 67413000,
+	'area': 643801,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%94%84%EB%9E%91%EC%8A%A4',
+	'url_eng': 'https://en.wikipedia.org/wiki/France'
+}, {
+	'code': 'GA',
+	'name': '가봉',
+	'name_eng': 'Gabon',
+	'capitals': ['Libreville'],
+	'capitals_eng': ['리브르빌'],
+	'population': 2119275,
+	'area': 267667,
+	'url': 'https://ko.wikipedia.org/wiki/%EA%B0%80%EB%B4%89',
+	'url_eng': 'https://en.wikipedia.org/wiki/Gabon'
+}, {
+	'code': 'GB',
+	'name': '영국',
+	'name_eng': 'United Kingdom',
+	'capitals': ['London'],
+	'capitals_eng': ['런던'],
+	'population': 67081000,
+	'area': 242495,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%98%81%EA%B5%AD',
+	'url_eng': 'https://en.wikipedia.org/wiki/United_Kingdom'
+}, {
+	'code': 'GD',
+	'name': '그레나다',
+	'name_eng': 'Grenada',
+	'capitals': ['St. George\'s'],
+	'capitals_eng': ['세인트조지스'],
+	'population': 111454,
+	'area': 349,
+	'url': 'https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%A0%88%EB%82%98%EB%8B%A4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Grenada'
+}, {
+	'code': 'GE',
+	'name': '조지아',
+	'name_eng': 'Georgia',
+	'capitals': ['Tbilisi'],
+	'capitals_eng': ['트빌리시'],
+	'population': 3688647,
+	'area': 69700,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%A7%80%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Georgia_(country)'
+}, {
+	'code': 'GH',
+	'name': '가나',
+	'name_eng': 'Ghana',
+	'capitals': ['Accra'],
+	'capitals_eng': ['아크라'],
+	'population': 32103042,
+	'area': 238535,
+	'url': 'https://ko.wikipedia.org/wiki/%EA%B0%80%EB%82%98',
+	'url_eng': 'https://en.wikipedia.org/wiki/Ghana'
+}, {
+	'code': 'GM',
+	'name': '감비아',
+	'name_eng': 'The Gambia',
+	'capitals': ['Banjul'],
+	'capitals_eng': ['반줄'],
+	'population': 2173999,
+	'area': 10689,
+	'url': 'https://ko.wikipedia.org/wiki/%EA%B0%90%EB%B9%84%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Gambia'
+}, {
+	'code': 'GN',
+	'name': '기니',
+	'name_eng': 'Guinea',
+	'capitals': ['Conakry'],
+	'capitals_eng': ['코나크리'],
+	'population': 12414293,
+	'area': 245857,
+	'url': 'https://ko.wikipedia.org/wiki/%EA%B8%B0%EB%8B%88',
+	'url_eng': 'https://en.wikipedia.org/wiki/Guinea'
+}, {
+	'code': 'GQ',
+	'name': '적도 기니',
+	'name_eng': 'Equatorial Guinea',
+	'capitals': ['Malabo'],
+	'capitals_eng': ['말라보'],
+	'population': 1468777,
+	'area': 28050,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%A0%81%EB%8F%84_%EA%B8%B0%EB%8B%88',
+	'url_eng': 'https://en.wikipedia.org/wiki/Equatorial_Guinea'
+}, {
+	'code': 'GR',
+	'name': '그리스',
+	'name_eng': 'Greece',
+	'capitals': ['Athens'],
+	'capitals_eng': ['아테네'],
+	'population': 10678632,
+	'area': 131957,
+	'url': 'https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%A6%AC%EC%8A%A4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Greece'
+}, {
+	'code': 'GT',
+	'name': '과테말라',
+	'name_eng': 'Guatemala',
+	'capitals': ['Guatemala City'],
+	'capitals_eng': ['과테말라시티'],
+	'population': 17263239,
+	'area': 108889,
+	'url': 'https://ko.wikipedia.org/wiki/%EA%B3%BC%ED%85%8C%EB%A7%90%EB%9D%BC',
+	'url_eng': 'https://en.wikipedia.org/wiki/Guatemala'
+}, {
+	'code': 'GW',
+	'name': '기니비사우',
+	'name_eng': 'Guinea-Bissau',
+	'capitals': ['Bissau'],
+	'capitals_eng': ['비사우'],
+	'population': 1726000,
+	'area': 36125,
+	'url': 'https://ko.wikipedia.org/wiki/%EA%B8%B0%EB%8B%88%EB%B9%84%EC%82%AC%EC%9A%B0',
+	'url_eng': 'https://en.wikipedia.org/wiki/Guinea-Bissau'
+}, {
+	'code': 'GY',
+	'name': '가이아나',
+	'name_eng': 'Guyana',
+	'capitals': ['Georgetown'],
+	'capitals_eng': ['조지타운'],
+	'population': 743700,
+	'area': 214970,
+	'url': 'https://ko.wikipedia.org/wiki/%EA%B0%80%EC%9D%B4%EC%95%84%EB%82%98',
+	'url_eng': 'https://en.wikipedia.org/wiki/Guyana'
+}, {
+	'code': 'HN',
+	'name': '온두라스',
+	'name_eng': 'Honduras',
+	'capitals': ['Tegucigalpa'],
+	'capitals_eng': ['테구시갈파'],
+	'population': 9587522,
+	'area': 112492,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%98%A8%EB%91%90%EB%9D%BC%EC%8A%A4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Honduras'
+}, {
+	'code': 'HR',
+	'name': '크로아티아',
+	'name_eng': 'Croatia',
+	'capitals': ['Zagreb'],
+	'capitals_eng': ['자그레브'],
+	'population': 3888529,
+	'area': 56594,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%81%AC%EB%A1%9C%EC%95%84%ED%8B%B0%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Croatia'
+}, {
+	'code': 'HT',
+	'name': '아이티',
+	'name_eng': 'Haiti',
+	'capitals': ['Port-au-Prince'],
+	'capitals_eng': ['포르토프랭스'],
+	'population': 11439646,
+	'area': 27750,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%95%84%EC%9D%B4%ED%8B%B0',
+	'url_eng': 'https://en.wikipedia.org/wiki/Haiti'
+}, {
+	'code': 'HU',
+	'name': '헝가리',
+	'name_eng': 'Hungary',
+	'capitals': ['Budapest'],
+	'capitals_eng': ['부다페스트'],
+	'population': 9730000,
+	'area': 93030,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%97%9D%EA%B0%80%EB%A6%AC',
+	'url_eng': 'https://en.wikipedia.org/wiki/Hungary'
+}, {
+	'code': 'ID',
+	'name': '인도네시아',
+	'name_eng': 'Indonesia',
+	'capitals': ['Jakarta'],
+	'capitals_eng': ['자카르타'],
+	'population': 273879750,
+	'area': 1904569,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Indonesia'
+}, {
+	'code': 'IE',
+	'name': '아일랜드',
+	'name_eng': 'Republic of Ireland',
+	'capitals': ['Dublin'],
+	'capitals_eng': ['더블린'],
+	'population': 5011500,
+	'area': 70273,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%95%84%EC%9D%BC%EB%9E%9C%EB%93%9C',
+	'url_eng': 'https://en.wikipedia.org/wiki/Republic_of_Ireland'
+}, {
+	'code': 'IL',
+	'name': '이스라엘',
+	'name_eng': 'Israel',
+	'capitals': ['Tel Aviv (de facto)', 'Jerusalem (limited recognition)'],
+	'capitals_eng': ['텔아비브 (사실상)', '예루살렘 (수도로 주장)'],
+	'population': 9525500,
+	'area': 20770,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%8A%A4%EB%9D%BC%EC%97%98',
+	'url_eng': 'https://en.wikipedia.org/wiki/Israel'
+}, {
+	'code': 'IN',
+	'name': '인도',
+	'name_eng': 'India',
+	'capitals': ['New Delhi'],
+	'capitals_eng': ['뉴델리'],
+	'population': 1352642280,
+	'area': 3287263,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%9D%B8%EB%8F%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/India'
+}, {
+	'code': 'IQ',
+	'name': '이라크',
+	'name_eng': 'Iraq',
+	'capitals': ['Baghdad'],
+	'capitals_eng': ['바그다드'],
+	'population': 40222503,
+	'area': 438317,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%9D%BC%ED%81%AC',
+	'url_eng': 'https://en.wikipedia.org/wiki/Iraq'
+}, {
+	'code': 'IR',
+	'name': '이란',
+	'name_eng': 'Iran',
+	'capitals': ['Tehran'],
+	'capitals_eng': ['테헤란'],
+	'population': 83183741,
+	'area': 1648195,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%9E%80',
+	'url_eng': 'https://en.wikipedia.org/wiki/Iran'
+}, {
+	'code': 'IS',
+	'name': '아이슬란드',
+	'name_eng': 'Iceland',
+	'capitals': ['Reykjavík'],
+	'capitals_eng': ['레이캬비크'],
+	'population': 371580,
+	'area': 102775,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%95%84%EC%9D%B4%EC%8A%AC%EB%9E%80%EB%93%9C',
+	'url_eng': 'https://en.wikipedia.org/wiki/Iceland'
+}, {
+	'code': 'IT',
+	'name': '이탈리아',
+	'name_eng': 'Italy',
+	'capitals': ['Rome'],
+	'capitals_eng': ['로마'],
+	'population': 60317116,
+	'area': 301230,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%9D%B4%ED%83%88%EB%A6%AC%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Italy'
+}, {
+	'code': 'JM',
+	'name': '자메이카',
+	'name_eng': 'Jamaica',
+	'capitals': ['Kingston'],
+	'capitals_eng': ['킹스턴'],
+	'population': 2726667,
+	'area': 10991,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%9E%90%EB%A9%94%EC%9D%B4%EC%B9%B4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Jamaica'
+}, {
+	'code': 'JO',
+	'name': '요르단',
+	'name_eng': 'Jordan',
+	'capitals': ['Amman'],
+	'capitals_eng': ['암만'],
+	'population': 11042719,
+	'area': 89342,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%9A%94%EB%A5%B4%EB%8B%A8',
+	'url_eng': 'https://en.wikipedia.org/wiki/Jordan'
+}, {
+	'code': 'JP',
+	'name': '일본',
+	'name_eng': 'Japan',
+	'capitals': ['Tokyo'],
+	'capitals_eng': ['도쿄'],
+	'population': 125502000,
+	'area': 377975,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%9D%BC%EB%B3%B8',
+	'url_eng': 'https://en.wikipedia.org/wiki/Japan'
+}, {
+	'code': 'KE',
+	'name': '케냐',
+	'name_eng': 'Kenya',
+	'capitals': ['Nairobi'],
+	'capitals_eng': ['나이로비'],
+	'population': 54985698,
+	'area': 580367,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%BC%80%EB%83%90',
+	'url_eng': 'https://en.wikipedia.org/wiki/Kenya'
+}, {
+	'code': 'KG',
+	'name': '키르기스스탄',
+	'name_eng': 'Kyrgyzstan',
+	'capitals': ['Bishkek'],
+	'capitals_eng': ['비슈케크'],
+	'population': 6729363,
+	'area': 199951,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%82%A4%EB%A5%B4%EA%B8%B0%EC%8A%A4%EC%8A%A4%ED%83%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Kyrgyzstan'
+}, {
+	'code': 'KH',
+	'name': '캄보디아',
+	'name_eng': 'Cambodia',
+	'capitals': ['Phnom Penh'],
+	'capitals_eng': ['프놈펜'],
+	'population': 17300000,
+	'area': 181035,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%BA%84%EB%B3%B4%EB%94%94%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Cambodia'
+}, {
+	'code': 'KI',
+	'name': '키리바시',
+	'name_eng': 'Kiribati',
+	'capitals': ['South Tarawa'],
+	'capitals_eng': ['사우스타라와'],
+	'population': 119940,
+	'area': 811,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%82%A4%EB%A6%AC%EB%B0%94%EC%8B%9C',
+	'url_eng': 'https://en.wikipedia.org/wiki/Kiribati'
+}, {
+	'code': 'KM',
+	'name': '코모로',
+	'name_eng': 'Comoros',
+	'capitals': ['Moroni'],
+	'capitals_eng': ['모로니'],
+	'population': 850886,
+	'area': 1861,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%BD%94%EB%AA%A8%EB%A1%9C',
+	'url_eng': 'https://en.wikipedia.org/wiki/Comoros'
+}, {
+	'code': 'KN',
+	'name': '세인트키츠 네비스',
+	'name_eng': 'Saint Kitts and Nevis',
+	'capitals': ['Basseterre'],
+	'capitals_eng': ['바스테르'],
+	'population': 52441,
+	'area': 261,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%84%B8%EC%9D%B8%ED%8A%B8%ED%82%A4%EC%B8%A0_%EB%84%A4%EB%B9%84%EC%8A%A4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis'
+}, {
+	'code': 'KP',
+	'name': '조선민주주의인민공화국',
+	'name_eng': 'North Korea',
+	'capitals': ['Pyongyang'],
+	'capitals_eng': ['평양'],
+	'population': 25549604,
+	'area': 120540,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0%EB%AF%BC%EC%A3%BC%EC%A3%BC%EC%9D%98%EC%9D%B8%EB%AF%BC%EA%B3%B5%ED%99%94%EA%B5%AD',
+	'url_eng': 'https://en.wikipedia.org/wiki/North_Korea'
+}, {
+	'code': 'KR',
+	'name': '대한민국',
+	'name_eng': 'South Korea',
+	'capitals': ['Seoul'],
+	'capitals_eng': ['서울'],
+	'population': 51745000,
+	'area': 100363,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD',
+	'url_eng': 'https://en.wikipedia.org/wiki/South_Korea'
+}, {
+	'code': 'KW',
+	'name': '쿠웨이트',
+	'name_eng': 'Kuwait',
+	'capitals': ['Kuwait City'],
+	'capitals_eng': ['쿠웨이트'],
+	'population': 4420110,
+	'area': 17818,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%BF%A0%EC%9B%A8%EC%9D%B4%ED%8A%B8',
+	'url_eng': 'https://en.wikipedia.org/wiki/Kuwait'
+}, {
+	'code': 'KZ',
+	'name': '카자흐스탄',
+	'name_eng': 'Kazakhstan',
+	'capitals': ['Nur-Sultan'],
+	'capitals_eng': ['누르술탄'],
+	'population': 19082467,
+	'area': 2724900,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%B9%B4%EC%9E%90%ED%9D%90%EC%8A%A4%ED%83%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Kazakhstan'
+}, {
+	'code': 'LA',
+	'name': '라오스',
+	'name_eng': 'Laos',
+	'capitals': ['Vientiane'],
+	'capitals_eng': ['비엔티안'],
+	'population': 7275556,
+	'area': 237955,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%98%A4%EC%8A%A4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Laos'
+}, {
+	'code': 'LB',
+	'name': '레바논',
+	'name_eng': 'Lebanon',
+	'capitals': ['Beirut'],
+	'capitals_eng': ['베이루트'],
+	'population': 6859408,
+	'area': 10452,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%A0%88%EB%B0%94%EB%85%BC',
+	'url_eng': 'https://en.wikipedia.org/wiki/Lebanon'
+}, {
+	'code': 'LC',
+	'name': '세인트루시아',
+	'name_eng': 'Saint Lucia',
+	'capitals': ['Castries'],
+	'capitals_eng': ['캐스트리스'],
+	'population': 184961,
+	'area': 617,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%84%B8%EC%9D%B8%ED%8A%B8%EB%A3%A8%EC%8B%9C%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Saint_Lucia'
+}, {
+	'code': 'LI',
+	'name': '리히텐슈타인',
+	'name_eng': 'Liechtenstein',
+	'capitals': ['Vaduz'],
+	'capitals_eng': ['파두츠'],
+	'population': 38387,
+	'area': 160,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%A6%AC%ED%9E%88%ED%85%90%EC%8A%88%ED%83%80%EC%9D%B8',
+	'url_eng': 'https://en.wikipedia.org/wiki/Liechtenstein'
+}, {
+	'code': 'LK',
+	'name': '스리랑카',
+	'name_eng': 'Sri Lanka',
+	'capitals': ['Sri Jayawardenepura Kotte (legislative)', 'Colombo (executive and judicial)'],
+	'capitals_eng': ['스리자야와르데네푸라코테 (입법)', '콜롬보 (행정, 사법)'],
+	'population': 22156000,
+	'area': 65610,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%8A%A4%EB%A6%AC%EB%9E%91%EC%B9%B4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Sri_Lanka'
+}, {
+	'code': 'LR',
+	'name': '라이베리아',
+	'name_eng': 'Liberia',
+	'capitals': ['Monrovia'],
+	'capitals_eng': ['몬로비아'],
+	'population': 5214030,
+	'area': 111369,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9D%B4%EB%B2%A0%EB%A6%AC%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Liberia'
+}, {
+	'code': 'LS',
+	'name': '레소토',
+	'name_eng': 'Lesotho',
+	'capitals': ['Maseru'],
+	'capitals_eng': ['마세루'],
+	'population': 2108328,
+	'area': 30355,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%A0%88%EC%86%8C%ED%86%A0',
+	'url_eng': 'https://en.wikipedia.org/wiki/Lesotho'
+}, {
+	'code': 'LT',
+	'name': '리투아니아',
+	'name_eng': 'Lithuania',
+	'capitals': ['Vilnius'],
+	'capitals_eng': ['빌뉴스'],
+	'population': 2795680,
+	'area': 65300,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%A6%AC%ED%88%AC%EC%95%84%EB%8B%88%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Lithuania'
+}, {
+	'code': 'LU',
+	'name': '룩셈부르크',
+	'name_eng': 'Luxembourg',
+	'capitals': ['Luxembourg City'],
+	'capitals_eng': ['룩셈부르크'],
+	'population': 645397,
+	'area': 2586,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%A3%A9%EC%85%88%EB%B6%80%EB%A5%B4%ED%81%AC',
+	'url_eng': 'https://en.wikipedia.org/wiki/Luxembourg'
+}, {
+	'code': 'LV',
+	'name': '라트비아',
+	'name_eng': 'Latvia',
+	'capitals': ['Riga'],
+	'capitals_eng': ['리가'],
+	'population': 1907675,
+	'area': 64589,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%9D%BC%ED%8A%B8%EB%B9%84%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Latvia'
+}, {
+	'code': 'LY',
+	'name': '리비아',
+	'name_eng': 'Libya',
+	'capitals': ['Tripoli'],
+	'capitals_eng': ['트리폴리'],
+	'population': 6992701,
+	'area': 1759541,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%A6%AC%EB%B9%84%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Libya'
+}, {
+	'code': 'MA',
+	'name': '모로코',
+	'name_eng': 'Morocco',
+	'capitals': ['Rabat'],
+	'capitals_eng': ['라바트'],
+	'population': 37112080,
+	'area': 446300,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%A1%9C%EC%BD%94',
+	'url_eng': 'https://en.wikipedia.org/wiki/Morocco'
+}, {
+	'code': 'MC',
+	'name': '모나코',
+	'name_eng': 'Monaco',
+	'capitals': ['Monaco'],
+	'capitals_eng': ['모나코'],
+	'population': 38300,
+	'area': 2,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%82%98%EC%BD%94',
+	'url_eng': 'https://en.wikipedia.org/wiki/Monaco'
+}, {
+	'code': 'MD',
+	'name': '몰도바',
+	'name_eng': 'Republic of Moldova',
+	'capitals': ['Chișinău'],
+	'capitals_eng': ['키시너우'],
+	'population': 2597100,
+	'area': 33846,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%AA%B0%EB%8F%84%EB%B0%94',
+	'url_eng': 'https://en.wikipedia.org/wiki/Moldova'
+}, {
+	'code': 'ME',
+	'name': '몬테네그로',
+	'name_eng': 'Montenegro',
+	'capitals': ['Podgorica'],
+	'capitals_eng': ['포드고리차'],
+	'population': 620739,
+	'area': 13812,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%AA%AC%ED%85%8C%EB%84%A4%EA%B7%B8%EB%A1%9C',
+	'url_eng': 'https://en.wikipedia.org/wiki/Montenegro'
+}, {
+	'code': 'MG',
+	'name': '마다가스카르',
+	'name_eng': 'Madagascar',
+	'capitals': ['Antananarivo'],
+	'capitals_eng': ['안타나나리보'],
+	'population': 28427328,
+	'area': 587041,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%A7%88%EB%8B%A4%EA%B0%80%EC%8A%A4%EC%B9%B4%EB%A5%B4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Madagascar'
+}, {
+	'code': 'MH',
+	'name': '마셜 제도',
+	'name_eng': 'Marshall Islands',
+	'capitals': ['Delap-Uliga-Djarrit'],
+	'capitals_eng': ['마주로'],
+	'population': 58413,
+	'area': 181,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%A7%88%EC%85%9C_%EC%A0%9C%EB%8F%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Marshall_Islands'
+}, {
+	'code': 'MK',
+	'name': '북마케도니아',
+	'name_eng': 'North Macedonia',
+	'capitals': ['Skopje'],
+	'capitals_eng': ['스코페'],
+	'population': 1836713,
+	'area': 25713,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B6%81%EB%A7%88%EC%BC%80%EB%8F%84%EB%8B%88%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/North_Macedonia'
+}, {
+	'code': 'ML',
+	'name': '말리',
+	'name_eng': 'Mali',
+	'capitals': ['Bamako'],
+	'capitals_eng': ['바마코'],
+	'population': 20250833,
+	'area': 1240192,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%A7%90%EB%A6%AC',
+	'url_eng': 'https://en.wikipedia.org/wiki/Mali'
+}, {
+	'code': 'MM',
+	'name': '미얀마',
+	'name_eng': 'Myanmar',
+	'capitals': ['Naypyidaw'],
+	'capitals_eng': ['네피도'],
+	'population': 53582855,
+	'area': 676578,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%AF%B8%EC%96%80%EB%A7%88',
+	'url_eng': 'https://en.wikipedia.org/wiki/Myanmar'
+}, {
+	'code': 'MN',
+	'name': '몽골',
+	'name_eng': 'Mongolia',
+	'capitals': ['Ulaanbaatar'],
+	'capitals_eng': ['울란바토르'],
+	'population': 3353470,
+	'area': 1564116,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%AA%BD%EA%B3%A8',
+	'url_eng': 'https://en.wikipedia.org/wiki/Mongolia'
+}, {
+	'code': 'MR',
+	'name': '모리타니',
+	'name_eng': 'Mauritania',
+	'capitals': ['Nouakchott'],
+	'capitals_eng': ['누악쇼트'],
+	'population': 4403313,
+	'area': 1030000,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%A6%AC%ED%83%80%EB%8B%88',
+	'url_eng': 'https://en.wikipedia.org/wiki/Mauritania'
+}, {
+	'code': 'MT',
+	'name': '몰타',
+	'name_eng': 'Malta',
+	'capitals': ['Valletta'],
+	'capitals_eng': ['발레타'],
+	'population': 516100,
+	'area': 316,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%AA%B0%ED%83%80',
+	'url_eng': 'https://en.wikipedia.org/wiki/Malta'
+}, {
+	'code': 'MU',
+	'name': '모리셔스',
+	'name_eng': 'Mauritius',
+	'capitals': ['Port Louis'],
+	'capitals_eng': ['포트루이스'],
+	'population': 1265475,
+	'area': 2040,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%A6%AC%EC%85%94%EC%8A%A4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Mauritius'
+}, {
+	'code': 'MV',
+	'name': '몰디브',
+	'name_eng': 'Maldives',
+	'capitals': ['Malé'],
+	'capitals_eng': ['말레'],
+	'population': 579330,
+	'area': 300,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%AA%B0%EB%94%94%EB%B8%8C',
+	'url_eng': 'https://en.wikipedia.org/wiki/Maldives'
+}, {
+	'code': 'MW',
+	'name': '말라위',
+	'name_eng': 'Malawi',
+	'capitals': ['Lilongwe'],
+	'capitals_eng': ['릴롱궤'],
+	'population': 19129952,
+	'area': 118484,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%A7%90%EB%9D%BC%EC%9C%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Malawi'
+}, {
+	'code': 'MX',
+	'name': '멕시코',
+	'name_eng': 'Mexico',
+	'capitals': ['Mexico City'],
+	'capitals_eng': ['멕시코시티'],
+	'population': 126014024,
+	'area': 1972550,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%A9%95%EC%8B%9C%EC%BD%94',
+	'url_eng': 'https://en.wikipedia.org/wiki/Mexico'
+}, {
+	'code': 'MY',
+	'name': '말레이시아',
+	'name_eng': 'Malaysia',
+	'capitals': ['Kuala Lumpur (ceremonial, legislative and judicial)', 'Putrajaya (administrative)'],
+	'capitals_eng': ['쿠알라룸푸르 (공식)', '푸트라자야 (행정)'],
+	'population': 32730000,
+	'area': 330803,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%A7%90%EB%A0%88%EC%9D%B4%EC%8B%9C%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Malaysia'
+}, {
+	'code': 'MZ',
+	'name': '모잠비크',
+	'name_eng': 'Mozambique',
+	'capitals': ['Maputo'],
+	'capitals_eng': ['마푸투'],
+	'population': 30066648,
+	'area': 801590,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%AA%A8%EC%9E%A0%EB%B9%84%ED%81%AC',
+	'url_eng': 'https://en.wikipedia.org/wiki/Mozambique'
+}, {
+	'code': 'NA',
+	'name': '나미비아',
+	'name_eng': 'Namibia',
+	'capitals': ['Windhoek'],
+	'capitals_eng': ['빈트후크'],
+	'population': 2550226,
+	'area': 825615,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%82%98%EB%AF%B8%EB%B9%84%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Namibia'
+}, {
+	'code': 'NE',
+	'name': '니제르',
+	'name_eng': 'Niger',
+	'capitals': ['Niamey'],
+	'capitals_eng': ['니아메'],
+	'population': 24112753,
+	'area': 1267000,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%8B%88%EC%A0%9C%EB%A5%B4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Niger'
+}, {
+	'code': 'NG',
+	'name': '나이지리아',
+	'name_eng': 'Nigeria',
+	'capitals': ['Abuja'],
+	'capitals_eng': ['아부자'],
+	'population': 216746934,
+	'area': 923769,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%82%98%EC%9D%B4%EC%A7%80%EB%A6%AC%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Nigeria'
+}, {
+	'code': 'NI',
+	'name': '니카라과',
+	'name_eng': 'Nicaragua',
+	'capitals': ['Managua'],
+	'capitals_eng': ['마나과'],
+	'population': 6486201,
+	'area': 130375,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%8B%88%EC%B9%B4%EB%9D%BC%EA%B3%BC',
+	'url_eng': 'https://en.wikipedia.org/wiki/Nicaragua'
+}, {
+	'code': 'NL',
+	'name': '네덜란드',
+	'name_eng': 'Netherlands',
+	'capitals': ['Amsterdam'],
+	'capitals_eng': ['암스테르담'],
+	'population': 17737438,
+	'area': 42531,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%84%A4%EB%8D%9C%EB%9E%80%EB%93%9C',
+	'url_eng': 'https://en.wikipedia.org/wiki/Kingdom_of_the_Netherlands'
+}, {
+	'code': 'NO',
+	'name': '노르웨이',
+	'name_eng': 'Norway',
+	'capitals': ['Oslo'],
+	'capitals_eng': ['오슬로'],
+	'population': 5425270,
+	'area': 385207,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%85%B8%EB%A5%B4%EC%9B%A8%EC%9D%B4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Norway'
+}, {
+	'code': 'NP',
+	'name': '네팔',
+	'name_eng': 'Nepal',
+	'capitals': ['Kathmandu'],
+	'capitals_eng': ['카트만두'],
+	'population': 28095714,
+	'area': 147516,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%84%A4%ED%8C%94',
+	'url_eng': 'https://en.wikipedia.org/wiki/Nepal'
+}, {
+	'code': 'NR',
+	'name': '나우루',
+	'name_eng': 'Nauru',
+	'capitals': ['Yaren (de facto)'],
+	'capitals_eng': ['야렌 (사실상)'],
+	'population': 10834,
+	'area': 21,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%82%98%EC%9A%B0%EB%A3%A8',
+	'url_eng': 'https://en.wikipedia.org/wiki/Nauru'
+}, {
+	'code': 'NU',
+	'name': '니우에',
+	'name_eng': 'Niue',
+	'capitals': ['Alofi'],
+	'capitals_eng': ['알로피'],
+	'population': 1620,
+	'area': 261,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%8B%88%EC%9A%B0%EC%97%90',
+	'url_eng': 'https://en.wikipedia.org/wiki/Niue'
+}, {
+	'code': 'NZ',
+	'name': '뉴질랜드',
+	'name_eng': 'New Zealand',
+	'capitals': ['Wellington'],
+	'capitals_eng': ['웰링턴'],
+	'population': 5130510,
+	'area': 268021,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%89%B4%EC%A7%88%EB%9E%9C%EB%93%9C',
+	'url_eng': 'https://en.wikipedia.org/wiki/New_Zealand'
+}, {
+	'code': 'OM',
+	'name': '오만',
+	'name_eng': 'Oman',
+	'capitals': ['Muscat'],
+	'capitals_eng': ['무스카트'],
+	'population': 4829473,
+	'area': 309500,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%98%A4%EB%A7%8C',
+	'url_eng': 'https://en.wikipedia.org/wiki/Oman'
+}, {
+	'code': 'PA',
+	'name': '파나마',
+	'name_eng': 'Panama',
+	'capitals': ['Panama City'],
+	'capitals_eng': ['파나마시티'],
+	'population': 4379039,
+	'area': 75417,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%8C%8C%EB%82%98%EB%A7%88',
+	'url_eng': 'https://en.wikipedia.org/wiki/Panama'
+}, {
+	'code': 'PE',
+	'name': '페루',
+	'name_eng': 'Peru',
+	'capitals': ['Lima'],
+	'capitals_eng': ['리마'],
+	'population': 34294231,
+	'area': 1285216,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%8E%98%EB%A3%A8',
+	'url_eng': 'https://en.wikipedia.org/wiki/Peru'
+}, {
+	'code': 'PG',
+	'name': '파푸아뉴기니',
+	'name_eng': 'Papua New Guinea',
+	'capitals': ['Port Moresby'],
+	'capitals_eng': ['포트모르즈비'],
+	'population': 8935000,
+	'area': 462840,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%8C%8C%ED%91%B8%EC%95%84%EB%89%B4%EA%B8%B0%EB%8B%88',
+	'url_eng': 'https://en.wikipedia.org/wiki/Papua_New_Guinea'
+}, {
+	'code': 'PH',
+	'name': '필리핀',
+	'name_eng': 'Philippines',
+	'capitals': ['Manila'],
+	'capitals_eng': ['마닐라'],
+	'population': 109991095,
+	'area': 300000,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%95%84%EB%A6%AC%ED%95%80',
+	'url_eng': 'https://en.wikipedia.org/wiki/Philippines'
+}, {
+	'code': 'PK',
+	'name': '파키스탄',
+	'name_eng': 'Pakistan',
+	'capitals': ['Islamabad'],
+	'capitals_eng': ['이슬라마바드'],
+	'population': 242923845,
+	'area': 881913,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%8C%8C%ED%82%A4%EC%8A%A4%ED%83%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Pakistan'
+}, {
+	'code': 'PL',
+	'name': '폴란드',
+	'name_eng': 'Poland',
+	'capitals': ['Warsaw'],
+	'capitals_eng': ['바르샤바'],
+	'population': 38179800,
+	'area': 312696,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%8F%B4%EB%9E%80%EB%93%9C',
+	'url_eng': 'https://en.wikipedia.org/wiki/Poland'
+}, {
+	'code': 'PS',
+	'name': '팔레스타인',
+	'name_eng': 'State of Palestine',
+	'capitals': ['Ramallah (de facto)', 'Jerusalem (limited recognition)'],
+	'capitals_eng': ['라말라 (사실상)', '예루살렘 (수도로 주장)'],
+	'population': 5159076,
+	'area': 6020,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%8C%94%EB%A0%88%EC%8A%A4%ED%83%80%EC%9D%B8',
+	'url_eng': 'https://en.wikipedia.org/wiki/State_of_Palestine'
+}, {
+	'code': 'PT',
+	'name': '포르투갈',
+	'name_eng': 'Portugal',
+	'capitals': ['Lisbon'],
+	'capitals_eng': ['리스본'],
+	'population': 10344802,
+	'area': 92212,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%8F%AC%EB%A5%B4%ED%88%AC%EA%B0%88',
+	'url_eng': 'https://en.wikipedia.org/wiki/Portugal'
+}, {
+	'code': 'PW',
+	'name': '팔라우',
+	'name_eng': 'Palau',
+	'capitals': ['Ngerulmud'],
+	'capitals_eng': ['응게룰무드'],
+	'population': 17907,
+	'area': 459,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%8C%94%EB%9D%BC%EC%9A%B0',
+	'url_eng': 'https://en.wikipedia.org/wiki/Palau'
+}, {
+	'code': 'PY',
+	'name': '파라과이',
+	'name_eng': 'Paraguay',
+	'capitals': ['Asunción'],
+	'capitals_eng': ['아순시온'],
+	'population': 7359000,
+	'area': 406796,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%8C%8C%EB%9D%BC%EA%B3%BC%EC%9D%B4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Paraguay'
+}, {
+	'code': 'QA',
+	'name': '카타르',
+	'name_eng': 'Qatar',
+	'capitals': ['Doha'],
+	'capitals_eng': ['도하'],
+	'population': 2795484,
+	'area': 11581,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%B9%B4%ED%83%80%EB%A5%B4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Qatar'
+}, {
+	'code': 'RO',
+	'name': '루마니아',
+	'name_eng': 'Romania',
+	'capitals': ['Bucharest'],
+	'capitals_eng': ['부쿠레슈티'],
+	'population': 19186201,
+	'area': 238397,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%A3%A8%EB%A7%88%EB%8B%88%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Romania'
+}, {
+	'code': 'RS',
+	'name': '세르비아',
+	'name_eng': 'Serbia',
+	'capitals': ['Belgrade'],
+	'capitals_eng': ['베오그라드'],
+	'population': 7186862,
+	'area': 88361,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%84%B8%EB%A5%B4%EB%B9%84%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Serbia'
+}, {
+	'code': 'RU',
+	'name': '러시아',
+	'name_eng': 'Russia',
+	'capitals': ['Moscow'],
+	'capitals_eng': ['모스크바'],
+	'population': 145478097,
+	'area': 17098246,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%9F%AC%EC%8B%9C%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Russia'
+}, {
+	'code': 'RW',
+	'name': '르완다',
+	'name_eng': 'Rwanda',
+	'capitals': ['Kigali'],
+	'capitals_eng': ['키갈리'],
+	'population': 12955736,
+	'area': 26338,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%A5%B4%EC%99%84%EB%8B%A4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Rwanda'
+}, {
+	'code': 'SA',
+	'name': '사우디아라비아',
+	'name_eng': 'Saudi Arabia',
+	'capitals': ['Riyadh'],
+	'capitals_eng': ['리야드'],
+	'population': 34218000,
+	'area': 2149690,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9A%B0%EB%94%94%EC%95%84%EB%9D%BC%EB%B9%84%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Saudi_Arabia'
+}, {
+	'code': 'SB',
+	'name': '솔로몬 제도',
+	'name_eng': 'Solomon Islands',
+	'capitals': ['Honiara'],
+	'capitals_eng': ['호니아라'],
+	'population': 652857,
+	'area': 28400,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%86%94%EB%A1%9C%EB%AA%AC_%EC%A0%9C%EB%8F%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Solomon_Islands'
+}, {
+	'code': 'SC',
+	'name': '세이셸',
+	'name_eng': 'Seychelles',
+	'capitals': ['Victoria'],
+	'capitals_eng': ['빅토리아'],
+	'population': 99331,
+	'area': 459,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%84%B8%EC%9D%B4%EC%85%B8',
+	'url_eng': 'https://en.wikipedia.org/wiki/Seychelles'
+}, {
+	'code': 'SD',
+	'name': '수단',
+	'name_eng': 'Sudan',
+	'capitals': ['Khartoum'],
+	'capitals_eng': ['하르툼'],
+	'population': 45709353,
+	'area': 1886068,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%88%98%EB%8B%A8',
+	'url_eng': 'https://en.wikipedia.org/wiki/Sudan'
+}, {
+	'code': 'SE',
+	'name': '스웨덴',
+	'name_eng': 'Sweden',
+	'capitals': ['Stockholm'],
+	'capitals_eng': ['스톡홀름'],
+	'population': 10402070,
+	'area': 450295,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%8A%A4%EC%9B%A8%EB%8D%B4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Sweden'
+}, {
+	'code': 'SG',
+	'name': '싱가포르',
+	'name_eng': 'Singapore',
+	'capitals': ['Singapore'],
+	'capitals_eng': ['싱가포르'],
+	'population': 5453600,
+	'area': 733,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Singapore'
+}, {
+	'code': 'SI',
+	'name': '슬로베니아',
+	'name_eng': 'Slovenia',
+	'capitals': ['Ljubljana'],
+	'capitals_eng': ['류블랴나'],
+	'population': 2108708,
+	'area': 20271,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%8A%AC%EB%A1%9C%EB%B2%A0%EB%8B%88%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Slovenia'
+}, {
+	'code': 'SK',
+	'name': '슬로바키아',
+	'name_eng': 'Slovakia',
+	'capitals': ['Bratislava'],
+	'capitals_eng': ['브라티슬라바'],
+	'population': 5449270,
+	'area': 49035,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%8A%AC%EB%A1%9C%EB%B0%94%ED%82%A4%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Slovakia'
+}, {
+	'code': 'SL',
+	'name': '시에라리온',
+	'name_eng': 'Sierra Leone',
+	'capitals': ['Freetown'],
+	'capitals_eng': ['프리타운'],
+	'population': 8059155,
+	'area': 71740,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%97%90%EB%9D%BC%EB%A6%AC%EC%98%A8',
+	'url_eng': 'https://en.wikipedia.org/wiki/Sierra_Leone'
+}, {
+	'code': 'SM',
+	'name': '산마리노',
+	'name_eng': 'San Marino',
+	'capitals': ['San Marino'],
+	'capitals_eng': ['산마리노'],
+	'population': 33600,
+	'area': 61,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%82%B0%EB%A7%88%EB%A6%AC%EB%85%B8',
+	'url_eng': 'https://en.wikipedia.org/wiki/San_Marino'
+}, {
+	'code': 'SN',
+	'name': '세네갈',
+	'name_eng': 'Senegal',
+	'capitals': ['Dakar'],
+	'capitals_eng': ['다카르'],
+	'population': 15854323,
+	'area': 196712,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%84%B8%EB%84%A4%EA%B0%88',
+	'url_eng': 'https://en.wikipedia.org/wiki/Senegal'
+}, {
+	'code': 'SO',
+	'name': '소말리아',
+	'name_eng': 'Somalia',
+	'capitals': ['Mogadishu'],
+	'capitals_eng': ['모가디슈'],
+	'population': 15893219,
+	'area': 637657,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%86%8C%EB%A7%90%EB%A6%AC%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Somalia'
+}, {
+	'code': 'SR',
+	'name': '수리남',
+	'name_eng': 'Suriname',
+	'capitals': ['Paramaribo'],
+	'capitals_eng': ['파라마리보'],
+	'population': 575990,
+	'area': 163821,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%88%98%EB%A6%AC%EB%82%A8',
+	'url_eng': 'https://en.wikipedia.org/wiki/Suriname'
+}, {
+	'code': 'SS',
+	'name': '남수단',
+	'name_eng': 'South Sudan',
+	'capitals': ['Juba'],
+	'capitals_eng': ['주바'],
+	'population': 12778250,
+	'area': 644329,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%82%A8%EC%88%98%EB%8B%A8',
+	'url_eng': 'https://en.wikipedia.org/wiki/South_Sudan'
+}, {
+	'code': 'ST',
+	'name': '상투메 프린시페',
+	'name_eng': 'São Tomé and Príncipe',
+	'capitals': ['São Tomé'],
+	'capitals_eng': ['상투메'],
+	'population': 211028,
+	'area': 1001,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%83%81%ED%88%AC%EB%A9%94_%ED%94%84%EB%A6%B0%EC%8B%9C%ED%8E%98',
+	'url_eng': 'https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe'
+}, {
+	'code': 'SV',
+	'name': '엘살바도르',
+	'name_eng': 'El Salvador',
+	'capitals': ['San Salvador'],
+	'capitals_eng': ['산살바도르'],
+	'population': 6830000,
+	'area': 21041,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%97%98%EC%82%B4%EB%B0%94%EB%8F%84%EB%A5%B4',
+	'url_eng': 'https://en.wikipedia.org/wiki/El_Salvador'
+}, {
+	'code': 'SY',
+	'name': '시리아',
+	'name_eng': 'Syria',
+	'capitals': ['Damascus'],
+	'capitals_eng': ['다마스쿠스'],
+	'population': 17500657,
+	'area': 185180,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%8B%9C%EB%A6%AC%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Syria'
+}, {
+	'code': 'SZ',
+	'name': '에스와티니',
+	'name_eng': 'Eswatini',
+	'capitals': ['Mbabane (executive)', 'Lobamba (legislative)'],
+	'capitals_eng': ['음바바네 (행정)', '로밤바 (왕정, 입법)'],
+	'population': 1160164,
+	'area': 17364,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%97%90%EC%8A%A4%EC%99%80%ED%8B%B0%EB%8B%88',
+	'url_eng': 'https://en.wikipedia.org/wiki/Eswatini'
+}, {
+	'code': 'TD',
+	'name': '차드',
+	'name_eng': 'Chad',
+	'capitals': ['N\'Djamena'],
+	'capitals_eng': ['은자메나'],
+	'population': 16244513,
+	'area': 1284000,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%B0%A8%EB%93%9C',
+	'url_eng': 'https://en.wikipedia.org/wiki/Chad'
+}, {
+	'code': 'TG',
+	'name': '토고',
+	'name_eng': 'Togo',
+	'capitals': ['Lomé'],
+	'capitals_eng': ['로메'],
+	'population': 8608444,
+	'area': 56785,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%86%A0%EA%B3%A0',
+	'url_eng': 'https://en.wikipedia.org/wiki/Togo'
+}, {
+	'code': 'TH',
+	'name': '태국',
+	'name_eng': 'Thailand',
+	'capitals': ['Bangkok'],
+	'capitals_eng': ['방콕'],
+	'population': 66171439,
+	'area': 513120,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%83%9C%EA%B5%AD',
+	'url_eng': 'https://en.wikipedia.org/wiki/Thailand'
+}, {
+	'code': 'TJ',
+	'name': '타지키스탄',
+	'name_eng': 'Tajikistan',
+	'capitals': ['Dushanbe'],
+	'capitals_eng': ['두샨베'],
+	'population': 9537645,
+	'area': 143100,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%83%80%EC%A7%80%ED%82%A4%EC%8A%A4%ED%83%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Tajikistan'
+}, {
+	'code': 'TL',
+	'name': '동티모르',
+	'name_eng': 'East Timor',
+	'capitals': ['Dili'],
+	'capitals_eng': ['딜리'],
+	'population': 1340513,
+	'area': 15007,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%8F%99%ED%8B%B0%EB%AA%A8%EB%A5%B4',
+	'url_eng': 'https://en.wikipedia.org/wiki/East_Timor'
+}, {
+	'code': 'TM',
+	'name': '투르크메니스탄',
+	'name_eng': 'Turkmenistan',
+	'capitals': ['Ashgabat'],
+	'capitals_eng': ['아시가바트'],
+	'population': 6031187,
+	'area': 491210,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%88%AC%EB%A5%B4%ED%81%AC%EB%A9%94%EB%8B%88%EC%8A%A4%ED%83%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Turkmenistan'
+}, {
+	'code': 'TN',
+	'name': '튀니지',
+	'name_eng': 'Tunisia',
+	'capitals': ['Tunis'],
+	'capitals_eng': ['튀니스'],
+	'population': 11708370,
+	'area': 163610,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%8A%80%EB%8B%88%EC%A7%80',
+	'url_eng': 'https://en.wikipedia.org/wiki/Tunisia'
+}, {
+	'code': 'TO',
+	'name': '통가',
+	'name_eng': 'Tonga',
+	'capitals': ['Nukuʻalofa'],
+	'capitals_eng': ['누쿠알로파'],
+	'population': 100209,
+	'area': 748,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%86%B5%EA%B0%80',
+	'url_eng': 'https://en.wikipedia.org/wiki/Tonga'
+}, {
+	'code': 'TR',
+	'name': '터키',
+	'name_eng': 'Turkey',
+	'capitals': ['Ankara'],
+	'capitals_eng': ['앙카라'],
+	'population': 84680273,
+	'area': 783356,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%84%B0%ED%82%A4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Turkey'
+}, {
+	'code': 'TT',
+	'name': '트리니다드 토바고',
+	'name_eng': 'Trinidad and Tobago',
+	'capitals': ['Port of Spain'],
+	'capitals_eng': ['포트오브스페인'],
+	'population': 1367558,
+	'area': 5131,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%A6%AC%EB%8B%88%EB%8B%A4%EB%93%9C_%ED%86%A0%EB%B0%94%EA%B3%A0',
+	'url_eng': 'https://en.wikipedia.org/wiki/Trinidad_and_Tobago'
+}, {
+	'code': 'TV',
+	'name': '투발루',
+	'name_eng': 'Tuvalu',
+	'capitals': ['Funafuti'],
+	'capitals_eng': ['푸나푸티'],
+	'population': 11900,
+	'area': 26,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%88%AC%EB%B0%9C%EB%A3%A8',
+	'url_eng': 'https://en.wikipedia.org/wiki/Tuvalu'
+}, {
+	'code': 'TW',
+	'name': '대만',
+	'name_eng': 'Taiwan',
+	'capitals': ['Taipei'],
+	'capitals_eng': ['타이베이'],
+	'population': 23451837,
+	'area': 36197,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%A4%91%ED%99%94%EB%AF%BC%EA%B5%AD',
+	'url_eng': 'https://en.wikipedia.org/wiki/Taiwan'
+}, {
+	'code': 'TZ',
+	'name': '탄자니아',
+	'name_eng': 'Tanzania',
+	'capitals': ['Dodoma'],
+	'capitals_eng': ['도도마'],
+	'population': 63852892,
+	'area': 947303,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%83%84%EC%9E%90%EB%8B%88%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Tanzania'
+}, {
+	'code': 'UA',
+	'name': '우크라이나',
+	'name_eng': 'Ukraine',
+	'capitals': ['Kyiv'],
+	'capitals_eng': ['키이우'],
+	'population': 41167336,
+	'area': 603628,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98',
+	'url_eng': 'https://en.wikipedia.org/wiki/Ukraine'
+}, {
+	'code': 'UG',
+	'name': '우간다',
+	'name_eng': 'Uganda',
+	'capitals': ['Kampala'],
+	'capitals_eng': ['캄팔라'],
+	'population': 42729036,
+	'area': 241038,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%9A%B0%EA%B0%84%EB%8B%A4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Uganda'
+}, {
+	'code': 'US',
+	'name': '미국',
+	'name_eng': 'United States',
+	'capitals': ['Washington, D.C.'],
+	'capitals_eng': ['워싱턴 D.C.'],
+	'population': 331893745,
+	'area': 9833520,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%AF%B8%EA%B5%AD',
+	'url_eng': 'https://en.wikipedia.org/wiki/United_States'
+}, {
+	'code': 'UY',
+	'name': '우루과이',
+	'name_eng': 'Uruguay',
+	'capitals': ['Montevideo'],
+	'capitals_eng': ['몬테비데오'],
+	'population': 3518552,
+	'area': 176215,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%9A%B0%EB%A3%A8%EA%B3%BC%EC%9D%B4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Uruguay'
+}, {
+	'code': 'UZ',
+	'name': '우즈베키스탄',
+	'name_eng': 'Uzbekistan',
+	'capitals': ['Tashkent'],
+	'capitals_eng': ['타슈켄트'],
+	'population': 35300000,
+	'area': 448978,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%9A%B0%EC%A6%88%EB%B2%A0%ED%82%A4%EC%8A%A4%ED%83%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Uzbekistan'
+}, {
+	'code': 'VC',
+	'name': '세인트빈센트 그레나딘',
+	'name_eng': 'Saint Vincent and the Grenadines',
+	'capitals': ['Kingstown'],
+	'capitals_eng': ['킹스타운'],
+	'population': 110211,
+	'area': 389,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%84%B8%EC%9D%B8%ED%8A%B8%EB%B9%88%EC%84%BC%ED%8A%B8_%EA%B7%B8%EB%A0%88%EB%82%98%EB%94%98',
+	'url_eng': 'https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines'
+}, {
+	'code': 'VE',
+	'name': '베네수엘라',
+	'name_eng': 'Venezuela',
+	'capitals': ['Caracas'],
+	'capitals_eng': ['카라카스'],
+	'population': 28887118,
+	'area': 916445,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B2%A0%EB%84%A4%EC%88%98%EC%97%98%EB%9D%BC',
+	'url_eng': 'https://en.wikipedia.org/wiki/Venezuela'
+}, {
+	'code': 'VN',
+	'name': '베트남',
+	'name_eng': 'Viet Nam',
+	'capitals': ['Hanoi'],
+	'capitals_eng': ['하노이'],
+	'population': 96208984,
+	'area': 331699,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B2%A0%ED%8A%B8%EB%82%A8',
+	'url_eng': 'https://en.wikipedia.org/wiki/Vietnam'
+}, {
+	'code': 'VU',
+	'name': '바누아투',
+	'name_eng': 'Vanuatu',
+	'capitals': ['Port Vila'],
+	'capitals_eng': ['포트빌라'],
+	'population': 307815,
+	'area': 12189,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B0%94%EB%88%84%EC%95%84%ED%88%AC',
+	'url_eng': 'https://en.wikipedia.org/wiki/Vanuatu'
+}, {
+	'code': 'WS',
+	'name': '사모아',
+	'name_eng': 'Samoa',
+	'capitals': ['Apia'],
+	'capitals_eng': ['아피아'],
+	'population': 202506,
+	'area': 2842,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%82%AC%EB%AA%A8%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Samoa'
+}, {
+	'code': 'YE',
+	'name': '예멘',
+	'name_eng': 'Yemen',
+	'capitals': ['Aden (de facto)', 'Sanaa (limited recognition)'],
+	'capitals_eng': ['아덴 (사실상)', '사나 (수도로 주장)'],
+	'population': 30491000,
+	'area': 555000,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%98%88%EB%A9%98',
+	'url_eng': 'https://en.wikipedia.org/wiki/Yemen'
+}, {
+	'code': 'ZA',
+	'name': '남아프리카 공화국',
+	'name_eng': 'South Africa',
+	'capitals': ['Cape Town (legislative)', 'Pretoria (executive)', 'Bloemfontein (judicial)'],
+	'capitals_eng': ['케이프타운 (입법)', '프리토리아 (행정)', '블룸폰테인 (사법)'],
+	'population': 60142978,
+	'area': 1221037,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%82%A8%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4_%EA%B3%B5%ED%99%94%EA%B5%AD',
+	'url_eng': 'https://en.wikipedia.org/wiki/South_Africa'
+}, {
+	'code': 'ZM',
+	'name': '잠비아',
+	'name_eng': 'Zambia',
+	'capitals': ['Lusaka'],
+	'capitals_eng': ['루사카'],
+	'population': 17351708,
+	'area': 752617,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%9E%A0%EB%B9%84%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Zambia'
+}, {
+	'code': 'ZW',
+	'name': '짐바브웨',
+	'name_eng': 'Zimbabwe',
+	'capitals': ['Harare'],
+	'capitals_eng': ['하라레'],
+	'population': 15092171,
+	'area': 390757,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%A7%90%EB%B0%94%EB%B8%8C%EC%9B%A8',
+	'url_eng': 'https://en.wikipedia.org/wiki/Zimbabwe'
+}, {
+	'code': 'Abkhazia',
+	'name': '압하지야',
+	'name_eng': 'Abkhazia',
+	'capitals': ['Sukhumi'],
+	'capitals_eng': ['수후미'],
+	'population': 244926,
+	'area': 8665,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%95%95%ED%95%98%EC%A7%80%EC%95%BC',
+	'url_eng': 'https://en.wikipedia.org/wiki/Abkhazia'
+}, {
+	'code': 'Donetsk_People\'s_Republic',
+	'name': '도네츠크 인민공화국',
+	'name_eng': 'Donetsk People\'s Republic',
+	'capitals': ['Donetsk'],
+	'capitals_eng': ['도네츠크'],
+	'population': 2302444,
+	'area': 13000,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%8F%84%EB%84%A4%EC%B8%A0%ED%81%AC_%EC%9D%B8%EB%AF%BC%EA%B3%B5%ED%99%94%EA%B5%AD',
+	'url_eng': 'https://en.wikipedia.org/wiki/Donetsk_People%27s_Republic'
+}, {
+	'code': 'Kosovo',
+	'name': '코소보',
+	'name_eng': 'Kosovo',
+	'capitals': ['Pristina'],
+	'capitals_eng': ['프리슈티나'],
+	'population': 1935259,
+	'area': 10887,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%BD%94%EC%86%8C%EB%B3%B4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Kosovo'
+}, {
+	'code': 'Luhansk_People\'s_Republic',
+	'name': '루간스크 인민공화국',
+	'name_eng': 'Luhansk People\'s Republic',
+	'capitals': ['Luhansk'],
+	'capitals_eng': ['루간스크'],
+	'population': 2100000,
+	'area': 25000,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%A3%A8%EA%B0%84%EC%8A%A4%ED%81%AC_%EC%9D%B8%EB%AF%BC%EA%B3%B5%ED%99%94%EA%B5%AD',
+	'url_eng': 'https://en.wikipedia.org/wiki/Luhansk_People%27s_Republic'
+}, {
+	'code': 'Northern_Cyprus',
+	'name': '북키프로스',
+	'name_eng': 'Northern Cyprus',
+	'capitals': ['North Nicosia (de facto)', 'Nicosia (de jure)'],
+	'capitals_eng': ['북부 니코시아 (사실상)', '니코시아 (법률상)'],
+	'population': 326000,
+	'area': 3355,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%B6%81%ED%82%A4%ED%94%84%EB%A1%9C%EC%8A%A4',
+	'url_eng': 'https://en.wikipedia.org/wiki/Northern_Cyprus'
+}, {
+	'code': 'Republic_of_Artsakh',
+	'name': '아르차흐 공화국',
+	'name_eng': 'Republic of Artsakh',
+	'capitals': ['Stepanakert'],
+	'capitals_eng': ['스테파나케르트'],
+	'population': 120000,
+	'area': 3170,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%95%84%EB%A5%B4%EC%B0%A8%ED%9D%90_%EA%B3%B5%ED%99%94%EA%B5%AD',
+	'url_eng': 'https://en.wikipedia.org/wiki/Republic_of_Artsakh'
+}, {
+	'code': 'Sahrawi_Arab_Democratic_Republic',
+	'name': '사하라 아랍 민주 공화국',
+	'name_eng': 'Sahrawi Arab Democratic Republic',
+	'capitals': ['El Aaiún (claimed)', 'Tifariti (de facto)'],
+	'capitals_eng': ['엘아이운(법상)', '티파리티 (사실상)'],
+	'population': 612000,
+	'area': 266000,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%82%AC%ED%95%98%EB%9D%BC_%EC%95%84%EB%9E%8D_%EB%AF%BC%EC%A3%BC_%EA%B3%B5%ED%99%94%EA%B5%AD',
+	'url_eng': 'https://en.wikipedia.org/wiki/Sahrawi_Arab_Democratic_Republic'
+}, {
+	'code': 'Somaliland',
+	'name': '소말릴란드',
+	'name_eng': 'Somaliland',
+	'capitals': ['Hargeisa'],
+	'capitals_eng': ['하르게이사'],
+	'population': 5700000,
+	'area': 177000,
+	'url': 'https://ko.wikipedia.org/wiki/%EC%86%8C%EB%A7%90%EB%A6%B4%EB%9E%80%EB%93%9C',
+	'url_eng': 'https://en.wikipedia.org/wiki/Somaliland'
+}, {
+	'code': 'South_Ossetia',
+	'name': '남오세티야',
+	'name_eng': 'South Ossetia',
+	'capitals': ['Tskhinvali'],
+	'capitals_eng': ['츠힌발리'],
+	'population': 53532,
+	'area': 3900,
+	'url': 'https://ko.wikipedia.org/wiki/%EB%82%A8%EC%98%A4%EC%84%B8%ED%8B%B0%EC%95%BC',
+	'url_eng': 'https://en.wikipedia.org/wiki/South_Ossetia'
+}, {
+	'code': 'Transnistria',
+	'name': '트란스니스트리아',
+	'name_eng': 'Transnistria',
+	'capitals': ['Tiraspol'],
+	'capitals_eng': ['티라스폴'],
+	'population': 347251,
+	'area': 4163,
+	'url': 'https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%9E%80%EC%8A%A4%EB%8B%88%EC%8A%A4%ED%8A%B8%EB%A6%AC%EC%95%84',
+	'url_eng': 'https://en.wikipedia.org/wiki/Transnistria'
+}]);
