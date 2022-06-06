@@ -1,4 +1,9 @@
-import { readable } from 'svelte/store';
+import { readable, writable } from 'svelte/store';
+
+export const type = writable({
+	'question': 'country',
+	'answer': 'capital'
+});
 
 export const data = readable([{
 	'code': 'AD',
