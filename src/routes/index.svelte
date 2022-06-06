@@ -1,11 +1,9 @@
 <script>
-    import Question from './question.svelte';
+    import Question from '$lib/component/Question.svelte';
+    import Answer from '$lib/component/Answer.svelte';
 </script>
 
-<div class="container py-5">
-    <div class="text-center">
-        <h1>워얼-드 게임</h1>
-    </div>
+<div class="index container py-5">
     <div class="row">
         <div class="offset-4 col-4">
             <div class="text-center mt-5">
@@ -14,7 +12,8 @@
             </div>
             <div class="text-center mt-5">
                 <h2>맞추기</h2>
-            </div>        
+                <Answer/>
+            </div>   
         </div>
     </div>
 </div>
